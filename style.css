@@ -1,0 +1,35 @@
+body {
+    background: #4d7585;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.base {
+    background-image: url("https://source.unsplash.com/random/150x150");
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.tenu {
+    border: solid 5px #f1f1f1;
+}
+
+.case {
+    display: inline-block;
+    height:160px;
+    width: 160px;
+    margin: 10px;
+    border:solid 3px black;
+    background: #fff;
+}
+
+.hovered {
+    background: #f5f5f5;
+    border: dashed;
+}
